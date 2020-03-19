@@ -54,19 +54,19 @@ Remember the app is currently not complete. It is your job to read the given cod
 •has many flights
 
     •Plane#name
-returns the planes's name
+            returns the planes's name
 
     •Plane#num_of_seats
-returns the plane's num_of_seats
+            returns the plane's num_of_seats
 
     •Plane#flights
-returns an array of all of the plane's flights
+            returns an array of all of the plane's flights
 
     •Plane#passengers
-returns an array of all of the plane's passengers
+            returns an array of all of the plane's passengers
 
     •Plane#total_passengers
-returns the total number of passengers associated with this plane
+            returns the total number of passengers associated with this plane
 
 -Passenger:
 
@@ -75,13 +75,13 @@ returns the total number of passengers associated with this plane
 •has many Flights
 
     •Passenger#name
-returns the passenger's name
+            returns the passenger's name
 
     •Passenger#flights
-returns an array of all of the passenger's flights
+            returns an array of all of the passenger's flights
 
     •Passenger#planes
-returns an array of all of the passenger's planes
+            returns an array of all of the passenger's planes
 
     •Passenger#total_flight_time
-returns the passenger's total duration_in_minutes from all of the passenger's flights
+            returns the passenger's total duration_in_minutes from all of the passenger's flights
