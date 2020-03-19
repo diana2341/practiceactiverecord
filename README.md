@@ -9,74 +9,79 @@ Congratulations! You've just been hired to work on a special project for JFK Air
 
 Remember the app is currently not complete. It is your job to read the given code and make any necessary changes to establish the proper database, models, and relationships. This may even include writing additional migratons and making changes to the current schema. A Flight belongs to a Plane, a Flight has many Passengers, and a Passenger has many Flights. If your app is complete it will be able to do the following deliverables
 
-Flight:
+-Flight:
 
-has a duration_in_minutes
+•has a duration_in_minutes
 
-has a destination
+•has a destination
 
-has an origin
+•has an origin
 
-belongs to Plane
+•belongs to Plane
 
-has many Passengers
+•has many Passengers
 
-Flight#duration_in_minutes
+    •Flight#duration_in_minutes
 
 returns the flight's duration_in_minutes as an integer
-Flight#origin
+
+    •Flight#origin
 
 returns the flight's origin as a string
-Flight#destination
+
+    •Flight#destination
 
 returns the flight's destination as a string
-Flight#passengers
+
+    •Flight#passengers
 
 returns an array of all of the flight's passengers
-Flight#plane
+
+    •Flight#plane
 
 returns the plane that belongs to the flight
-Flight#total_passengers
+
+    •Flight#total_passengers
 
 returns the total number of passengers on the flight
-Plane:
 
-has a name
+-Plane:
 
-has a num_of_seats
+•has a name
 
-has many flights
+•has a num_of_seats
 
-Plane#name
+•has many flights
 
+    •Plane#name
 returns the planes's name
-Plane#num_of_seats
 
+    •Plane#num_of_seats
 returns the plane's num_of_seats
-Plane#flights
 
+    •Plane#flights
 returns an array of all of the plane's flights
-Plane#passengers
 
+    •Plane#passengers
 returns an array of all of the plane's passengers
-Plane#total_passengers
 
+    •Plane#total_passengers
 returns the total number of passengers associated with this plane
-Passenger:
 
-has a name
+-Passenger:
 
-has many Flights
+•has a name
 
-Passenger#name
+•has many Flights
 
+    •Passenger#name
 returns the passenger's name
-Passenger#flights
 
+    •Passenger#flights
 returns an array of all of the passenger's flights
-Passenger#planes
 
+    •Passenger#planes
 returns an array of all of the passenger's planes
-Passenger#total_flight_time
 
+    •Passenger#total_flight_time
 returns the passenger's total duration_in_minutes from all of the passenger's flights
