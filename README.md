@@ -27,23 +27,23 @@ Remember the app is currently not complete. It is your job to read the given cod
 
     •Flight#origin
 
-returns the flight's origin as a string
+            returns the flight's origin as a string
 
     •Flight#destination
 
-returns the flight's destination as a string
+            returns the flight's destination as a string
 
     •Flight#passengers
 
-returns an array of all of the flight's passengers
+            returns an array of all of the flight's passengers
 
     •Flight#plane
 
-returns the plane that belongs to the flight
+            returns the plane that belongs to the flight
 
     •Flight#total_passengers
 
-returns the total number of passengers on the flight
+            returns the total number of passengers on the flight
 
 -Plane:
 
