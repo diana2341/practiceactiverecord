@@ -23,7 +23,7 @@ Remember the app is currently not complete. It is your job to read the given cod
 
     •Flight#duration_in_minutes
 
-returns the flight's duration_in_minutes as an integer
+            returns the flight's duration_in_minutes as an integer
 
     •Flight#origin
 
